@@ -1,4 +1,4 @@
-<?
+<?php
 // Funciones en PHP
 
 function muestraNombres(){
@@ -20,10 +20,14 @@ muestraNombres();
 $numero = 5;
 
 function tabla($numero){
-    var_dump($numero);
+    echo "<h3>Tabla de multiplicar del numero: $numero </h3>";
+
+    for($i = 1; $i <= 10; $i++){
+        $operacion = $numero*$i;
+        echo "$numero x $i = $operacion <br/>";
 }
 
-tabla($numero)
-
+}
+tabla(568);
 
 ?>
