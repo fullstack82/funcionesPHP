@@ -30,4 +30,14 @@ function tabla($numero){
 }
 tabla(568);
 
+
+
+if(isset($_GET['numero'])){
+    tabla($_GET['numero']);
+
+}else{
+    echo "No hay numero para sacar la tabla";
+}
+
+
 ?>
