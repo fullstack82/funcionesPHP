@@ -24,3 +24,10 @@ function devuelveNombre($nombre, $apellidos)
 
 
 echo devuelveNombre("maria", "pinto");
+
+
+
+/* Sirven para funciones muy grandes, con mucha logica, muchas operaciones que van a ejecutar muchas instrucciones, 
+* es muy util separarnos cada parte así más relevantes, en funciones más pequeñas; para que sea todo mucho mas mantentenible
+* y veamos al final el codigo mucho mejor organizado y mas claro. Ademas son reutilizables
+*/
