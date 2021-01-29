@@ -59,9 +59,14 @@ function calculadora($numero1, $numero2)
     $multi = $numero1 * $numero2;
     $division = $numero1 / $numero2;
 
-    echo "Suma: $suma </br>";
-    echo "Resta: $resta </br>";
-    echo "Multi: $multi </br>";
-    echo "División: $division </br>";
+    echo "Suma: $suma <br/>";
+    echo "Resta: $resta <br/>";
+    echo "Multi: $multi <br/>";
+    echo "División: $division <br/>";
+    echo "<hr/>";
 }
-calculadora(10, 25);
+calculadora(100, 2515);
+calculadora(1486, 250);
+calculadora(180, 295);
+calculadora(1023, 4925);
+calculadora(1480, 2735);
