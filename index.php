@@ -30,7 +30,7 @@ function tabla($numero){
 }
 tabla(568);
 
-
+// Tablas de multiplcar a traves del metodo $_GET
 
 if(isset($_GET['numero'])){
     tabla($_GET['numero']);
