@@ -32,12 +32,18 @@ tabla(568);
 
 // Tablas de multiplcar a traves del metodo $_GET
 
-if(isset($_GET['numero'])){
+/*if(isset($_GET['numero'])){
     tabla($_GET['numero']);
 
 }else{
     echo "No hay numero para sacar la tabla";
-}
+}*/
 
+
+// Todas las tablas juntas mostradas por pantalla;
+
+for($i = 0; $i <= 10; $i++){
+    tabla($i);
+}
 
 ?>
